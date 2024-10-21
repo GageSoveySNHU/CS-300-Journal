@@ -1,1 +1,14 @@
-# CS-300-Journal
+1. What was the problem you were solving in the projects for this course?
+   The problem I was solving involved creating an efficient system for loading, storing, and retrieving course information, including prerequisites, for a university advising program. This required selecting appropriate data structures to manage large datasets efficiently while supporting fast lookups and alphanumeric sorting. The system needed to handle complex relationships between courses, such as prerequisite dependencies, and allow for easy user interaction.
+
+2. How did you approach the problem? Consider why data structures are important to understand.
+   I approached the problem by evaluating multiple data structures—vectors, hash tables, and binary search trees—based on their runtime performance and suitability for handling course lookups and prerequisite relationships. Data structures are essential for optimizing both time and memory usage, especially in scenarios where fast access to data, like course information, is critical. By choosing the right structure, I ensured the program could handle larger datasets efficiently while maintaining quick search and retrieval operations.
+
+3. How did you overcome any roadblocks you encountered while going through the activities or project?
+   I encountered roadblocks, such as handling hash collisions and managing linked list traversal in the hash table implementation, which led to issues like duplicate entries. To overcome these, I used debugging techniques to trace the logic of data insertion and retrieval, iteratively refining the code to handle collisions and ensure correct outputs. I also adjusted my approach to ensure that prerequisite courses could be displayed with both their IDs and titles, which required additional data lookups.
+
+4. How has your work on this project expanded your approach to designing software and developing programs?
+   This project expanded my approach to designing software by reinforcing the importance of choosing the right data structure based on the problem's requirements. I learned to evaluate runtime complexity and memory usage while considering the trade-offs of each structure in relation to the project's specific needs. I also gained experience in breaking down complex problems into smaller, manageable tasks, which helped streamline the design and development process.
+
+5. How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
+   This project helped me focus on writing code that is both maintainable and adaptable by emphasizing modular design and clear function definitions. I ensured that each function handled a specific task, such as loading data, searching courses, or printing details, making the code easier to update and debug in the future. I also paid attention to readability, using meaningful variable names and comments, which will allow others (or myself) to easily understand and modify the program as needed.
